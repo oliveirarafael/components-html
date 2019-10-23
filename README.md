@@ -1,2 +1,2 @@
-# main-components-html
+# main components html
 Projeto de componentes em HTML

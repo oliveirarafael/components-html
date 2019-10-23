@@ -1,0 +1,15 @@
+@import 'reset.css';
+@import 'buttons.css';
+@import 'layout.css';
+@import 'nav.css';
+@import 'input-text.css';
+
+p {
+   font-family: inherit;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+label{
+   display: block;
+}

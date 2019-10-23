@@ -1,0 +1,5 @@
+input[type=text]{
+    padding: 8px 0px;
+    border-bottom: 1px solid #eb4d4b;
+    font-family: inherit;
+}

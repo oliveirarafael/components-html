@@ -1,0 +1,20 @@
+.btn-default {
+    background-color: #eb4d4b;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  
+  .btn-default:hover{
+    background-color: #c0392b;
+  }
+
+  .btn-default.btn-blue{
+    background-color: #3498db;
+  }
+
+  .btn-blue:hover{
+    background-color: #277fb9;
+  }

@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+input[type=text]{
+   outline: none;
+}
+
+body{
+    font-family: monospace;
+}
