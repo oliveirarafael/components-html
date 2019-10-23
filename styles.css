@@ -6,10 +6,7 @@
 
 p {
    font-family: inherit;
-   font-size: 16px;
    font-weight: 400;
+   font-size: inherit;
 }
 
-label{
-   display: block;
-}

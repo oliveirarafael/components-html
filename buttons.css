@@ -5,10 +5,12 @@
     border-radius: 10px;
     font-family: inherit;
     cursor: pointer;
+    font-size: inherit;
   }
   
   .btn-default:hover{
     background-color: #c0392b;
+    transition-duration: 0.8s;
   }
 
   .btn-default.btn-blue{
