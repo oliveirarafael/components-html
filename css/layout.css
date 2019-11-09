@@ -1,0 +1,30 @@
+.layout-left{
+  float: left;
+  display: inline-block;
+  height: inherit;
+  width: 15%;
+  box-shadow: inset -17px 0px 11px -14px rgba(0, 0, 0, 0.2);  
+}
+
+.layout-middle{
+  display: inline-block;
+  height: 90%;
+}
+
+.layout-right{
+  float: right;
+  display: inline-block;
+  height: 90%;
+  width: 15%;
+}
+
+.layout-top{
+  display: block;
+  height: 10%;
+}
+
+.layout-bottom{
+  display: inline-block;
+  height: 10%;
+  width: 85%;
+}
