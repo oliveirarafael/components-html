@@ -1,3 +1,23 @@
+@font-face {
+    font-family: "karla-regular";
+    src: url(../fonts/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: "karla-bold";
+    src: url(../fonts/Karla-Bold.ttf);
+}
+
+@font-face {
+    font-family: "karla-bold-italic";
+    src: url(../fonts/Karla-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "karla-italic";
+    src: url(../fonts/Karla-Italic.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,9 +25,11 @@
     border: none;
     text-decoration: none;
     box-sizing: border-box;
+    color: #424953;
+    font-family: 'karla-regular';
 }
 
-input[type=text], input[type=button]{
+input[type=text], input[type=button], button{
    outline: none;
 }
 

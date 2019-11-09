@@ -1,0 +1,8 @@
+nav {
+  padding: 10%;
+}
+
+nav ul li{
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+   padding-bottom: 2%; 
+}

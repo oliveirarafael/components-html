@@ -9,6 +9,7 @@
 .layout-middle{
   display: inline-block;
   height: 90%;
+  padding: 1%;
 }
 
 .layout-right{

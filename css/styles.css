@@ -1,6 +1,14 @@
-@import 'reset.css';
-@import 'buttons.css';
-@import 'layout.css';
-@import 'nav.css';
-@import 'input-text.css';
-@import 'card.css';
+@import '/css/reset.css';
+@import '/css/all.css';
+@import '/css/components/buttons.css';
+@import '/css/components/layout.css';
+@import '/css/components/nav.css';
+@import '/css/components/input-text.css';
+@import '/css/components/card.css';
+@import '/css/components/colors.css';
+
+
+.logo{
+    padding: 30% 0% 0% 30%;
+    margin-bottom: 15%;  
+}
