@@ -3,6 +3,8 @@
     --dark: #424953;
     --red: #eb4d4b;
     --blue: #3498db;
+    --gray: #8492a6;
+    --purple: #8e44ad;
 }
 
 .dark{
@@ -17,6 +19,10 @@
   background-color: var(--blue);
 }
 
+.purple{
+  background-color: var(--purple);
+}
+
 .border-dark{
   border-color: var(--dark);
 }
@@ -27,6 +33,10 @@
 
 .border-blue{
    border-color: var(--blue); 
+}
+
+.border-purple{
+  border-color: var(--purple); 
 }
  
 .text-white{
@@ -43,4 +53,12 @@
   
 .text-blue{
   color: var(--blue); 
+}
+
+.text-gray{
+  color: var(--gray);
+}
+
+.text-purple{
+  color: var(--purple);
 }

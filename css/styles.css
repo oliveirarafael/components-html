@@ -6,9 +6,15 @@
 @import '/css/components/input-text.css';
 @import '/css/components/card.css';
 @import '/css/components/colors.css';
+@import '/css/components/titles.css';
+@import '/css/components/align.css';
 
 
 .logo{
     padding: 30% 0% 0% 30%;
     margin-bottom: 15%;  
+}
+
+.code{
+    font-size: 87.5%; color: #e83e8c;
 }

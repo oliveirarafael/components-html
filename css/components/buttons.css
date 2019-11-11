@@ -1,11 +1,7 @@
 .button{
   cursor: pointer;
-  display: inline-block;
   transition: all 0.2s;  
   font-weight: 400;
-  text-align: center;
-  vertical-align: middle;
-
 }
 
 .button:hover{
@@ -18,37 +14,27 @@
 }
 
 .button-extra-large{
-  padding: 0px 30px;
-  min-width: 60px;
-  height: 60px;
+  padding: 14px 30px;
   font-size: 18px;
 }
 
 .button-large{
-  padding: 0px 25px;
-  min-width: 50px;
-  height: 50px;
+  padding: 12px 25px;
   font-size: 16px;
 }
 
 .button-medium{
-  padding: 0px 20px;
-  min-width: 40px;
-  height: 40px;
+  padding: 10px 20px;
   font-size: 16px;
 }
 
 .button-small{
-  padding: 0px 15px;
-  min-width: 30px;
-  height: 30px;
+  padding: 10px 15px;
   font-size: 14px;
 }
 
 .button-extra-small{
-  padding: 0px 10px;
-  min-width: 20px;
-  height: 20px;
+  padding: 10px 10px;
   font-size: 12px;
 }
 

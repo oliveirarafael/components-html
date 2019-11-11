@@ -29,3 +29,8 @@
   height: 10%;
   width: 85%;
 }
+
+.content{
+  padding: 80px;
+  max-width: 960px;
+}
