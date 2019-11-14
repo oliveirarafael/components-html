@@ -4,11 +4,15 @@
   font-weight: 400;
 }
 
-.button:hover{
+.button:active{
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5)
+}
+
+.animation:hover{
   transform: translateY(3px);
 }
 
-.button:active{
+.animation:active{
   transform: scale(1.2);
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5)
 }
@@ -36,10 +40,6 @@
 .button-extra-small{
   padding: 10px 10px;
   font-size: 12px;
-}
-
-.button-radius{
-   border-radius: 4px;
 }
 
 .button-ghost{

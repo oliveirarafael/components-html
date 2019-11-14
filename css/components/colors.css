@@ -1,10 +1,14 @@
 :root{
     --white: #fff;
-    --dark: #424953;
+    --dark: #707070;
     --red: #eb4d4b;
     --blue: #3498db;
     --gray: #8492a6;
     --purple: #8e44ad;
+}
+
+.white{
+  background-color: var(--white);
 }
 
 .dark{

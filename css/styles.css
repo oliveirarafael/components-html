@@ -8,7 +8,8 @@
 @import '/css/components/colors.css';
 @import '/css/components/titles.css';
 @import '/css/components/align.css';
-
+@import '/css/components/grid.css';
+@import '/css/components/radius.css';
 
 .logo{
     padding: 30% 0% 0% 30%;

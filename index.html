@@ -23,19 +23,22 @@
     </section>
     <section class="layout-middle">
       <div class="content">
-          <article style="margin-bottom: 80px; margin-top: 20px;">
+          <article style="margin: 40px 0px;">
             <h2 style="margin-bottom: 20px; color: #707070;">Buttons</h2>
             <p class="text-gray">
               Nesse guia ensinará como construir um botão utilizando as classes em CSS. 
               Todas as propriedades <i>Defaults</i> do buttons foram resetadas</p>
           </article>
-          <article style="margin-top: 20px;">
-              <h2 style="margin-bottom: 20px; color: #707070;">Estrutura Básica</h2>
+
+          <article style="margin: 60px 0px;">
+              <span class="text-dark" style="border-right: 5px solid #707070; margin-right: 5px; font-size: 22px; font-weight: 600; display: inline-block;padding-right: 5px;">1</span>
+              <h2 style="margin-bottom: 20px; color: #707070; display: inline-block;">Estrutura Básica</h2>
               <p style="margin-bottom: 20px;" class="text-gray">A class <i class="code">.button</i> configura as propriedades: <b class="text-white" style="padding: 2px 10px; font-weight: 500; background-color: #707070;">cursor</b> e <b class="text-white" style="padding: 2px 10px; font-weight: 500; background-color: #707070;">font-weight</b></p> 
           </article>
-
-          <article style="margin-top: 20px;">
-            <h2 style="margin-bottom: 20px; color: #707070;" class="text-dark">Tamanho</h2>
+          
+          <article style="margin: 60px 0px;">
+            <span class="text-dark" style="border-right: 5px solid #707070; margin-right: 5px; font-size: 22px; font-weight: 600; display: inline-block;padding-right: 5px;">2</span>
+            <h2 style="margin-bottom: 20px; color: #707070; display: inline-block;" class="text-dark">Tamanho</h2>
             <p style="margin-bottom: 20px;" class="text-gray">A class 
               <i class="code">.button-[tamanho]</i> define o tamanho do Button. Os button tem cincos tamanhos diferentes, são eles: 
               <i class="code">.button-extra-large</i>,
@@ -44,26 +47,106 @@
               <i class="code">.button-small</i> e 
               <i class="code">.button-extra-small</i> 
             </p>
-            <div style="border: 1px solid #e0e6ed; display: inline-block; height: 90px;">
-              <div style="padding: 20px; border-right: 1px solid #e0e6ed; display: inline-block; height: 90px;">
+            <div class="grid">
+              <div>
                 <button class="button button-extra-large">Button</button>
               </div> 
-              <div style="padding: 20px; border-right: 1px solid #e0e6ed; display: inline-block; height: 90px;">
+              <div>
                 <button class="button button-large">Button</button>
               </div>  
-              <div style="padding: 20px; border-right: 1px solid #e0e6ed; display: inline-block; height: 90px;">
+              <div>
                 <button class="button button-medium">Button</button>
               </div>
-                <div style="padding: 20px; border-right: 1px solid #e0e6ed; display: inline-block; height: 90px;">
+                <div>
                 <button class="button button-small">Button</button>
               </div>
-                <div style="padding: 20px; display: inline-block; height: 90px;">
+                <div>
                 <button class="button button-extra-small">Button</button>
               </div>
             </div> 
           </article>
 
-         
+          <article style="margin: 60px 0px;">
+            <span class="text-dark" style="border-right: 5px solid #707070; margin-right: 5px; font-size: 22px; font-weight: 600; display: inline-block;padding-right: 5px;">3</span>
+            <h2 style="margin-bottom: 20px; color: #707070; display: inline-block;" class="text-dark">Cor</h2>
+            <p style="margin-bottom: 20px;" class="text-gray">
+              As classes 
+              <i class="code">.dark, .blue, .red, .gray, .purple, white</i> 
+              definem as cores de fundo dos componentes, essas classes podem ser adicionadas em qualque elemento. 
+              E as classes 
+              <i class="code">.text-dark, .text-blue, .text-red, .text-gray, .text-purple, .text-white </i> 
+              definem a cor do texto, também podendo ser adionada a qualquer elemento.
+              No Button teremos a seguintes configurações: 
+            </p>
+            <div class="grid" style="margin: 60px 0px;">
+              <div>
+                <button class="button button-medium dark text-white">Button</button>
+              </div> 
+              <div>
+                <button class="button button-medium blue text-white">Button</button>
+              </div>  
+              <div>
+                <button class="button button-medium red text-white">Button</button>
+              </div>
+                <div>
+                <button class="button button-medium gray text-dark">Button</button>
+              </div>
+                <div>
+                <button class="button button-medium purple text-white">Button</button>
+              </div>
+            </div> 
+          </article>         
+
+          <article style="margin: 60px 0px;">
+            <span class="text-dark" style="border-right: 5px solid #707070; margin-right: 5px; font-size: 22px; font-weight: 600; display: inline-block;padding-right: 5px;">4</span>
+            <h2 style="margin-bottom: 20px; color: #707070; display: inline-block;" class="text-dark">Arredondamento nas bordas</h2>
+            <p style="margin-bottom: 20px;" class="text-gray">
+              A classe <i class="code">.radius</i> cria um arredondamento nas bordas. 
+            </p>
+            <div class="grid" style="margin: 60px 0px;">
+              <div>
+                <button class="button button-medium dark text-white radius">Button</button>
+              </div> 
+              <div>
+                <button class="button button-medium blue text-white radius">Button</button>
+              </div>  
+              <div>
+                <button class="button button-medium red text-white radius">Button</button>
+              </div>
+                <div>
+                <button class="button button-medium gray text-dark radius">Button</button>
+              </div>
+                <div>
+                <button class="button button-medium purple text-white radius">Button</button>
+              </div>
+            </div> 
+          </article> 
+
+          <article style="margin: 60px 0px;">
+            <span class="text-dark" style="border-right: 5px solid #707070; margin-right: 5px; font-size: 22px; font-weight: 600; display: inline-block;padding-right: 5px;">5</span>
+            <h2 style="margin-bottom: 20px; color: #707070; display: inline-block;" class="text-dark">Ghost Button</h2>
+            <p style="margin-bottom: 20px;" class="text-gray">
+              A classe <i class="code">.button-ghost</i> define um button com fundo transparente e texto e bordar com cor. 
+              Para você alterar as cores do texto do button e a borda, é só aplicar as classes: <i class="code">border-[cor]</i>  e <i class="code">.text-[cor]</i>.
+            </p>
+            <div class="grid" style="margin: 60px 0px;">
+              <div>
+                <button class="button button-medium button-ghost border-dark text-dark radius">Button</button>
+              </div> 
+              <div>
+                <button class="button button-medium button-ghost border-blue text-blue radius">Button</button>
+              </div>  
+              <div>
+                <button class="button button-medium button-ghost border-red text-red radius">Button</button>
+              </div>
+                <div>
+                <button class="button button-medium button-ghost border-gray text-gray radius">Button</button>
+              </div>
+                <div>
+                <button class="button button-medium button-ghost border-purple text-purple radius">Button</button>
+              </div>
+            </div> 
+          </article>
          
           <!--<p>Large</p>
           <input type="button" value="Button" class="button button-large"/>
